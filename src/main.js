@@ -4,6 +4,7 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 import "./styles/app.css";
+import "animate.css";
 
 createApp(App)
   .use(store)

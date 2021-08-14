@@ -10,11 +10,19 @@ const routes = [
       ),
   },
   {
-    path: "/about",
-    name: "About",
+    path: "/login",
+    name: "Login",
     component: () =>
       import(
-        /* webpackChunkName: "about", webpackPreload: true */ "@/pages/about/About.vue"
+        /* webpackChunkName: "login", webpackPreload: true */ "@/pages/auth/views/Login.vue"
+      ),
+  },
+  {
+    path: "/sign-up",
+    name: "Sign up",
+    component: () =>
+      import(
+        /* webpackChunkName: "sign up", webpackPreload: true */ "@/pages/auth/views/SignUp.vue"
       ),
   },
 ];

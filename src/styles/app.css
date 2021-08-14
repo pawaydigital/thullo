@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input {
+  @apply text-sm text-gray-600 block rounded-md px-2 py-2 my-5 bg-gray-100 w-full outline-none;
+}
+
+.btn-google {
+  @apply flex items-center cursor-pointer w-44 h-12 bg-blue-500 hover:bg-blue-400 rounded-sm shadow-sm;
+}
+
+.btn-google-logo {
+  @apply ml-1 mr-2 w-10 h-11 rounded-sm bg-gray-50;
+}
+
+.btn-google-text {
+  @apply text-gray-50 text-xs font-bold;
+}
+
+.btn {
+  @apply rounded-md px-4 py-2;
+}
+
+.btn-lg {
+  @apply rounded-md px-10 py-2;
+}
+
+.btn-blue {
+  @apply bg-blue-500 hover:bg-blue-400 text-gray-50;
+}
