@@ -2,7 +2,12 @@
   <div
     class="animate__animated animate__backInUp xs:container xs:my-10 md:mt-0 md:w-3/5 mx-auto"
   >
-    <h1 class="text-3xl font-bold text-gray-900">{{ text }}</h1>
+    <h1 class="text-3xl font-bold text-gray-900">
+      {{ text }}
+      <router-link class="xs:underline md:no-underline" to="/"
+        >Thullo</router-link
+      >
+    </h1>
 
     <BtnGoogle class="my-5" />
 
@@ -27,7 +32,7 @@ export default {
     const path = inject("path");
 
     const text = computed(() =>
-      path === "/login" ? "Sign in to Thullo" : "Sign up to Thullo"
+      path === "/login" ? "Sign in to" : "Sign up to"
     );
 
     return { text };
