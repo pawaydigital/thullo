@@ -24,8 +24,8 @@
 <script>
 import SvgIcon from "@jamescoyle/vue-icon";
 import { mdiArrowLeft } from "@mdi/js";
-import Subtitle from "../components/Subtitle.vue";
-import FormEditUser from "../components/form/FormEditUser.vue";
+import Subtitle from "@/pages/profile/components/Subtitle.vue";
+import FormEditUser from "@/pages/profile/components/form/FormEditUser.vue";
 
 export default {
   components: {

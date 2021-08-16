@@ -13,9 +13,9 @@
 </template>
 
 <script>
-import Title from "../components/Title.vue";
-import Subtitle from "../components/Subtitle.vue";
-import DataUser from "../components/DataUser.vue";
+import Title from "@/pages/profile/components/Title.vue";
+import Subtitle from "@/pages/profile/components/Subtitle.vue";
+import DataUser from "@/pages/profile/components/DataUser.vue";
 
 export default {
   components: {

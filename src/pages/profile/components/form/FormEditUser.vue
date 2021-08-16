@@ -18,7 +18,7 @@
 <script>
 import { computed } from "vue";
 import { useStore } from "vuex";
-import { useForm } from "../../../../hooks/useForm";
+import { useForm } from "@/hooks/useForm";
 import InputsEditUser from "./InputsEditUser.vue";
 
 export default {
