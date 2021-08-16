@@ -25,6 +25,22 @@ const routes = [
         /* webpackChunkName: "sign up", webpackPreload: true */ "@/pages/auth/views/SignUp.vue"
       ),
   },
+  {
+    path: "/profile",
+    name: "Profile",
+    component: () =>
+      import(
+        /* webpackChunkName: "profile", webpackPreload: true */ "@/pages/profile/views/Profile.vue"
+      ),
+  },
+  {
+    path: "/profile/edit",
+    name: "Edit",
+    component: () =>
+      import(
+        /* webpackChunkName: "edit", webpackPreload: true */ "@/pages/profile/views/Edit.vue"
+      ),
+  },
 ];
 
 const router = createRouter({
